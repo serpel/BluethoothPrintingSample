@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">PrintExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+
+    <!-- File Browser -->
+    <string name="load">Load</string>
+    <string name="no_directory">No files or directories</string>
+    <string name="back">Back</string>
+    <string name="browse">Browse</string>
+    <string name="filename">filename</string>
+    <string name="current_folder_label">Current Folder:</string>
+    <string name="title_activity_file_explorer">FileExplorerActivity</string>
+
+    <!-- About Menu -->
+    <string name = "close_label">Close</string>
+    <string name="version_code_label"> version code: </string>
+    <string name="version_name_label"> version code: </string>
+    <string name="about_company"> Company: Datamax-ONeil</string>
+    <string name="about_copyright"> Copyright: 2011</string>
+    <string name="about_decription_text"> This application prints sample label file to a Datamax-ONeil printer.</string>
+    <string name="app_description">Enter D-O application description here..</string>
+    <string name="image_desc">D-O Logo</string>
+
+    <!-- Main Activity -->
+    <string name="conn_type">Connection Type:</string>
+    <string name="config">Config</string>
+    <string name="connection">Select a communication method:</string>
+    <string name="connection_settings">Connection Settings</string>
+    <string name="print_items">Select an item to print:</string>
+    <string name="printer_mode">Select a printer language:</string>
+
+    <string-array name="connection_array">
+        <item>Bluetooth</item>
+        <item>TCP/IP</item>
+    </string-array>
+    <string-array name="printer_mode_array">
+        <item>EZ</item>
+        <item>LP</item>
+        <item>DPL</item>
+    </string-array>
+
+    <string-array name="print_list_EZ">
+        <item>3-inch Sample Receipt</item>
+        <item>4-inch Sample Receipt</item>
+        <item>Barcode Sample</item>
+    </string-array>
+
+    <string-array name="print_list_LP">
+        <item>3-inch Sample Receipt</item>
+        <item>4-inch Sample Receipt</item>
+        <item>Image Sample</item>
+    </string-array>
+
+    <string-array name="print_list_DPL">
+        <item>Text Sample</item>
+        <item>Barcodes Sample</item>
+        <item>Graphics Sample</item>
+        <item>Image Sample</item>
+    </string-array>
+
+    <string-array name="print_list_ExPCL_LP">
+        <item>Text Sample</item>
+        <item>Barcodes Sample</item>
+        <item>Graphics Sample</item>
+    </string-array>
+
+    <string-array name="print_list_ExPCL_PP">
+        <item>Text Sample</item>
+        <item>Barcodes Sample</item>
+        <item>Rectangles Sample</item>
+    </string-array>
+
+    <string-array name="query_list_Legacy">
+        <item>Avalanche Settings</item>
+        <item>Battery Condition</item>
+        <item>Bluetooth Config</item>
+        <item>Font List</item>
+        <item>Format List</item>
+        <item>General Config</item>
+        <item>General Status</item>
+        <item>Graphics List</item>
+        <item>IrDA Config</item>
+        <item>Label Config</item>
+        <item>Magnetic Config</item>
+        <item>Magnetic Card Data</item>
+        <item>Manufacturing Date</item>
+        <item>Memory Status</item>
+        <item>Printer Options</item>
+        <item>PrintHead Status</item>
+        <item>Serial Number</item>
+        <item>SmartCard Reader Config</item>
+        <item>Serial Port Config</item>
+        <item>TCP/IP Status</item>
+        <item>Update Data</item>
+        <item>Version Information</item>
+    </string-array>
+
+    <string-array name="query_list_DPL">
+        <item>Printer Information</item><item>Files and Internal Fonts</item><item>Media Label</item><item>Print Control Settings</item><item>System Settings</item><item>Sensor Calibration</item><item>Miscellaneous</item><item>Serial Port Config</item><item>Auto Update Settings</item>
+        <item>Avalanche Enabler Settings</item>
+        <item>Bluetooth Config</item>
+        <item>Network General Settings</item>
+        <item>Network Wireless Settings</item>
+    </string-array>
+
+    <string-array name="query_list_ExPCL">
+        <item>General Status</item>
+        <item>Bluetooth Config</item>
+        <item>Magnetic Card Data</item>
+        <item>Version Information</item>
+    </string-array>
+
+    <!-- Connection Settings -->
+    <string name="title_activity_connection_settings">ConnectionSettingsActivity</string>
+    <string name="Save_Done_Button">Save</string>
+    <string name="mac_address">Please enter MAC Address:</string>
+    <string name="mac_addr_hint">AB:CD:EF:11:22:33 or ABCDEF112233</string>
+    <string name="Cancel_Button">Cancel</string>
+    <string name="port">Port:</string>
+    <string name="port_hint">eg. 515</string>
+    <string name="print">Print</string>
+    <string name="perform_task">Select what to do:</string>
+    <string name="query">Query</string>
+    <string name="save_settings">Save Settings</string>
+</resources>
